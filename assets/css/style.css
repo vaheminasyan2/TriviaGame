@@ -1,0 +1,18 @@
+body {
+    background: url("../images/background.png");
+    height: 100%;
+}
+
+.gameDisplay {
+    position: relative;
+}
+
+#startButton {
+    position: absolute;
+    top: 200px;
+}
+
+.mainContent {
+    background-color: rgb(215, 250, 231);
+}
+
