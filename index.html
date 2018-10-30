@@ -23,49 +23,53 @@
         <div class="row text-center">
             <div class="col gameDisplay">
                 <div id="questions">
-                    <h5>Time Remaining: </h5>
+                    <h5 id="timeRemaining">Time Remaining: </h5>
                     <br>
                     <div id="question1">
-                        <p>Question 1?</p>
-                        <input type="checkbox" value="0"> Answer 1
-                        <input type="checkbox" value="0"> Answer 2
-                        <input type="checkbox" value="1"> Answer 3
+                        <h6>What is the diameter of Earth?</h6>
+                        <input type="radio" value="0" name="question1"> 8,000 kilometers
+                        <input type="radio" value="1" name="question1"> 8,000 miles
+                        <input type="radio" value="0" name="question1"> 12,000 miles
                     </div>
                     <br>
                     <div id="question2">
-                        <p>Question 2?</p>
-                        <input type="checkbox" value="0"> Answer 1
-                        <input type="checkbox" value="0"> Answer 2
-                        <input type="checkbox" value="1"> Answer 3
+                        <h6>Where would you find the world's most ancient forest?</h6>
+                        <input type="radio" value="0" name="question2"> North America
+                        <input type="radio" value="0" name="question2"> Asia
+                        <input type="radio" value="0" name="question2"> Europe
+                        <input type="radio" value="1" name="question2"> Australia
                     </div>
                     <br>
                     <div id="question3">
-                        <p>Question 3?</p>
-                        <input type="checkbox" value="0"> Answer 1
-                        <input type="checkbox" value="0"> Answer 2
-                        <input type="checkbox" value="1"> Answer 3
+                        <h6>Name the world's biggest island.</h6>
+                        <input type="radio" value="0" name="question3"> Madagascar
+                        <input type="radio" value="1" name="question3"> Greenland
+                        <input type="radio" value="0" name="question3"> Great Britain
+                        <input type="radio" value="0" name="question3"> Victoria
+                        
                     </div>
                     <br>
                     <div id="question4">
-                        <p>Question 4?</p>
-                        <input type="checkbox" value="0"> Answer 1
-                        <input type="checkbox" value="0"> Answer 2
-                        <input type="checkbox" value="1"> Answer 3
+                        <h6>What is the world's longest river?</h6>
+                        <input type="radio" value="1" name="question4"> Amazon
+                        <input type="radio" value="0" name="question4"> Nile 
+                        <input type="radio" value="0" name="question4"> Yangtze
+                        <input type="radio" value="0"name="question4"> Yellow River
+
                     </div>
                     <br>
-                    <div sid="question5">
-                        <p>Question 5?</p>
-                        <input type="checkbox" value="0"> Answer 1
-                        <input type="checkbox" value="0"> Answer 2
-                        <input type="checkbox" value="1"> Answer 3
+                    <div id="question5">
+                        <h6>How many countries are in the world today?</h6>
+                        <input type="radio" value="0" name="question5"> 193
+                        <input type="radio" value="0" name="question5"> 194
+                        <input type="radio" value="1" name="question5"> 195
+                        <input type="radio" value="0" name="question5"> 196
                     </div>
                     <br>
                     <button type="button" id="doneButton" class="btn btn-warning pl-5 pr-5 mb-3">Done</button>
                     <br>
                 </div>
-                <div id="startButton">
-                    <button type="button" class="btn btn-warning pl-5 pr-5">Start</button>
-                </div>
+                <button type="button" id="startButton" class="btn btn-warning pl-5 pr-5">Start</button>
             </div>
         </div>
     </div>

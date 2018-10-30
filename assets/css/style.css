@@ -3,16 +3,30 @@ body {
     height: 100%;
 }
 
-.gameDisplay {
+#questions {
     position: relative;
 }
 
 #startButton {
     position: absolute;
-    top: 200px;
-}
+    top: 150px;
+    margin-left: -60px;
+} 
 
 .mainContent {
     background-color: rgb(215, 250, 231);
 }
+
+#question1, #question2, #question3, #question4, #question5 {
+    font-size: 12px;
+}
+
+#resultTable{
+    position: absolute;
+    top: 50px;
+    margin-left: 285px;
+   
+    
+} 
+
 
