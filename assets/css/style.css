@@ -1,32 +1,37 @@
 body {
     background: url("../images/background.png");
-    height: 100%;
 }
 
-#questions {
+.mainContent {
+    background: url("../images/gravel.png");
+    width: 60%;
+}
+
+.gameDisplay {
     position: relative;
+    font-size: 18px;
 }
 
 #startButton {
     position: absolute;
-    top: 150px;
-    margin-left: -60px;
-} 
-
-.mainContent {
-    background-color: rgb(215, 250, 231);
-}
-
-#question1, #question2, #question3, #question4, #question5 {
-    font-size: 12px;
-}
-
-#resultTable{
-    position: absolute;
     top: 50px;
-    margin-left: 285px;
-   
-    
+    margin-left: -70px;
 } 
 
+#timeRemaining {
+    font-size: 20px;
+    color: rgb(206, 51, 31)
+}
 
+.triviaTitle {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 48px;
+}
+
+.results {
+    color: black;
+}
+
+button {
+    font-weight: bold;
+}

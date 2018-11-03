@@ -10,71 +10,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
 
 </head>
 
 <body>
-    <div class="container mainContent mt-3">
+    <div class="container mainContent mt-4 mb-4">
         <div class="row text-center">
             <div class="col">
-                <h1 class="text-primary mt-2 mb-5">Trivia Game!</h1>
+                <h1 class="text-primary mt-2 mb-4 triviaTitle">Trivia Game!</h1>
             </div>
         </div>
         <div class="row text-center">
             <div class="col gameDisplay">
-                <div id="questions">
-                    <h5 id="timeRemaining">Time Remaining: </h5>
-                    <br>
-                    <div id="question1">
-                        <h6>What is the diameter of Earth?</h6>
-                        <input type="radio" value="0" name="question1"> 8,000 kilometers
-                        <input type="radio" value="1" name="question1"> 8,000 miles
-                        <input type="radio" value="0" name="question1"> 12,000 miles
-                    </div>
-                    <br>
-                    <div id="question2">
-                        <h6>Where would you find the world's most ancient forest?</h6>
-                        <input type="radio" value="0" name="question2"> North America
-                        <input type="radio" value="0" name="question2"> Asia
-                        <input type="radio" value="0" name="question2"> Europe
-                        <input type="radio" value="1" name="question2"> Australia
-                    </div>
-                    <br>
-                    <div id="question3">
-                        <h6>Name the world's biggest island.</h6>
-                        <input type="radio" value="0" name="question3"> Madagascar
-                        <input type="radio" value="1" name="question3"> Greenland
-                        <input type="radio" value="0" name="question3"> Great Britain
-                        <input type="radio" value="0" name="question3"> Victoria
-                        
-                    </div>
-                    <br>
-                    <div id="question4">
-                        <h6>What is the world's longest river?</h6>
-                        <input type="radio" value="1" name="question4"> Amazon
-                        <input type="radio" value="0" name="question4"> Nile 
-                        <input type="radio" value="0" name="question4"> Yangtze
-                        <input type="radio" value="0"name="question4"> Yellow River
-
-                    </div>
-                    <br>
-                    <div id="question5">
-                        <h6>How many countries are in the world today?</h6>
-                        <input type="radio" value="0" name="question5"> 193
-                        <input type="radio" value="0" name="question5"> 194
-                        <input type="radio" value="1" name="question5"> 195
-                        <input type="radio" value="0" name="question5"> 196
-                    </div>
-                    <br>
-                    <button type="button" id="doneButton" class="btn btn-warning pl-5 pr-5 mb-3">Done</button>
-                    <br>
+                <div id="timeRemaining">Time Remaining: </div>
+                <br><br>
+                <div class="quiz">
                 </div>
-                <button type="button" id="startButton" class="btn btn-warning pl-5 pr-5">Start</button>
+                <br>
+                <button type="button" id="doneButton" class="btn btn-primary pl-5 pr-5 mb-3 font-weight-bold">Done</button>
+                <br>
+                <button type="button" id="startButton" class="btn btn-warning pl-5 pr-5 font-weight-bold">Start</button>
+                <br>
             </div>
         </div>
     </div>
-
-
+    </div>
 
     <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
