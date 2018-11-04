@@ -10,13 +10,9 @@ var resultArray = [];
 var trivia = [
 
     { question: "What is the diameter of Earth?", choices: ["8,000 kilometers", "8,000 miles", "12,000 miles"], value: [0, 1, 0] },
-
     { question: "Where would you find the world's most ancient forest?", choices: ["North America", "Asia", "Europe", "Australia"], value: [0, 0, 0, 1] },
-
     { question: "Name the world's biggest island.", choices: ["Madagascar", "Greenland", "Great Britain", "Victoria"], value: [0, 1, 0, 0] },
-
     { question: "What is the world's longest river?", choices: ["Amazon", "Nile", "Yangtze", "Yellow River"], value: [1, 0, 0, 0] },
-
     { question: "How many countries are in the world today?", choices: ["193", "194", "195", "196"], value: [0, 0, 1, 0] },
 ];
 
@@ -27,7 +23,6 @@ function reset() {
         var QQ = $("<h4>").text(trivia[i].question);
         questionDiv.append(QQ);
         $(".quiz").append(questionDiv);
-        //questionDiv.append("<br>")
 
         for (var j = 0; j < trivia[i].choices.length; j++) {
             var choicesDiv1 = $("<input>" + trivia[i].choices[j] + " " + "</input>").attr("name", "group" + i).attr("type", "radio").attr("value", trivia[i].value[j]);
